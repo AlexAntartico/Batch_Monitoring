@@ -12,6 +12,7 @@
 
 `jil`: Used to add, modify, or delete jobs and other Autosys objects from the command line.
 
+Broadcom documentation [here.](https://techdocs.broadcom.com/us/en/ca-enterprise-software/intelligent-automation/autosys-workload-automation/12-1-01/monitoring-and-reporting/overview-and-key-features/manage-jobs-alerts/manage-job-events-in-monitoring/manage-job-events-in-monitorin-5.html)
 
 | Category | Command | Description |
 |---|---|---|
