@@ -23,7 +23,7 @@ Broadcom documentation [here.](https://techdocs.broadcom.com/us/en/ca-enterprise
 |  | `sendevent -E JOB_OFF_ICE -J job_name` | Reactivates job; runs at next scheduled time |
 |  | `sendevent -E JOB_ON_HOLD -J job_name` | Prevents the job from running; holds dependent jobs |
 |  | `sendevent -E JOB_OFF_HOLD -J job_name` | Releases a job from hold; runs immediately if conditions are met |
-|  | `sendevent -E CHG_JOB_PRIORITY -J job_name -p new_priority_value` | Changes job priority; higher priority gets resource preference |
+|  | `sendevent -E CHG_JOB_PRIORITY -J job_name -p new_priority_value` | Changes job priority; higher priority gets resource preference. Job priority ranges from 0 to 99, 0 being the highest priority |
 |  | `sendevent -E JOB_BEGIN -J job_name` | Manually forces a job to start (use with caution) |
 |  | `sendevent -E JOB_END -J job_name` | Manually forces a job to end |
 | **Job and Machine Information** | `autorep -J job_name` | Displays job details |
